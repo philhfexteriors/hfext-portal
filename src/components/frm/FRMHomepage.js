@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase/frm-client'
-import { useAuth } from './AuthProvider'
+import { useAuth } from '@/components/AuthProvider'
 import Link from 'next/link'
 import { format, startOfWeek, endOfWeek } from 'date-fns'
 import Loading from './Loading'
